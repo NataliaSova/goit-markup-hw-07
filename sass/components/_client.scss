@@ -1,0 +1,46 @@
+.client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    
+}
+
+.client-centr {
+    color: var(--secondary-header-color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    margin-top: 0px;
+
+}
+
+.client-ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.client-li {
+
+    border: 1px solid var(--color-icons);
+    border-radius: 4px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    fill: var(--color-icons);
+    width: 170px;
+    height: 92px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+.client-li:hover,
+.client-li:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+
+}

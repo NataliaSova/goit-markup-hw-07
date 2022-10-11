@@ -1,0 +1,21 @@
+{
+    "LiveSassCompile.setting.formats": [
+        {
+            "format":"expanded",
+            "extensionName":".css",
+            "savePath":"/.css"
+        },
+
+        {
+            "format":"compressed",
+            "extensionName":".min.css",
+            "savePath":"/css"
+
+        }
+    ],
+    "LiveSassCompile.setting.excludeList":["**/node_modules/**", ".vscode/**"],
+    "LiveSassCompile.setting.generateMap":true,
+    "LiveSassCompile.setting.autopefix":[">1%", "last 2 versions"]
+
+}
+
