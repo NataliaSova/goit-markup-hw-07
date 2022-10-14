@@ -57,3 +57,62 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+.contacts {
+    fill: currentColor;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--accent-color);
+}
+
+
+.icona-contacts {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.smartfon {
+    width: 10px;
+    height: 16px;
+}
+
+.icona-contacts:hover,
+.icona-contacts:focus {
+    fill: var(--accent-color);
+}
+.list {
+    margin-left: 93px;
+}
+
+
+.site-nav .site-nav-li+.site-nav-li {
+    margin-left: 50px;
+
+}
+
+.site-nav:hover,
+.site-nav:focus {
+    color: var(--accent-color);
+}
+.site-nav-a {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.auth-nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.auth-nav .site-nav-li+.site-nav-li {
+    margin-left: 50px;
+}
